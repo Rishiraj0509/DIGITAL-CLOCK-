@@ -13,13 +13,13 @@ int main(){
             {
                  
                 if (h>12){
-                    system("CLS");
+                    system("clear");
                     printf("\n\n\n\n\n\n\t\t\t\t\t\t %d:%d:%d AM", h,m,s);
                     printf("\n");
                     sleep(1);
                 }
                 else if(h<12){
-                    system("CLS");
+                    system("clear");
                     printf("\n\n\n\n\n\n\t\t\t\t\t\t %d:%d:%d PM", h,m,s);
                     printf("\n");
                     sleep(1);
